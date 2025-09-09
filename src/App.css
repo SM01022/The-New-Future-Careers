@@ -1,0 +1,117 @@
+*{
+  margin: 0 ;
+  padding: 0 ;
+  box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,700;1,700&display=swap');
+
+body {
+  background-color: #272727;
+  font-family: "Sansation", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(51, 51, 51, 0.6);
+  padding: 1rem 1rem;
+  backdrop-filter: blur(6px);
+  position: fixed;         
+  top: 0;                  
+  left: 0;
+  width: 100%;             
+  z-index: 1000;           
+}
+
+.navbar-logo {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.hero-img {
+  width: 100%;
+  max-width: 1000px;
+  border-radius: 18px;
+  margin-bottom: 2rem;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.35);
+  object-position: center;
+  object-fit: cover;
+  height: 440px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-section {
+  text-align: center;
+  color: #fff;
+  margin-top: 6rem; 
+  margin-bottom: 2rem;
+}
+
+.hero-section h1 {
+   font-size: 2.8rem;
+  margin-bottom: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #61dafb;
+  text-shadow: 0 2px 12px rgba(0,0,0,0.18);
+}
+
+.hero-section p {
+  font-size: 1.18rem;
+  max-width: 700px;
+  margin: 0.7rem auto;
+  color: #e0e0e0;
+  line-height: 1.7;
+  letter-spacing: 0.2px;
+  text-align: center;
+  text-shadow: 0 1px 6px rgba(0,0,0,0.10);
+}
+
+.info-section {
+  background: rgba(255,255,255,0.05);
+  margin: 1.5rem auto;
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+  max-width: 700px;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.info-section h2 {
+  margin-bottom: 1rem;
+  color: #61dafb;
+}
+
+.info-section ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.info-section li {
+  margin-bottom: 0.5rem;
+  font-size: 1.05rem;
+  position: relative;
+  padding-left: 2rem;
+}
+
+.info-section li::before {
+  content: "💠";
+  position: absolute;
+  left: 0;
+  top: 0.1rem;
+  font-size: 1.1rem;
+  color: #61dafb;
+}
+
+.footer {
+  text-align: center;
+  color: #aaa;
+  margin: 3rem 0 1rem 0;
+  font-size: 0.95rem;
+}
